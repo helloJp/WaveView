@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaveView">
+        <attr name="waveCrest" format="dimension|reference"/>
+        <attr name="waveLength" format="dimension|reference"/>
+        <attr name="isRiseUp" format="boolean"/>
+        <attr name="isShowPercentText" format="boolean"/>
+        <attr name="defaultWaveLineHeight" format="dimension|reference"/>
+        <attr name="waveColor" format="color|reference"/>
+        <attr name="speedY" format="float"/>
+        <attr name="speedX" format="float"/>
+    </declare-styleable>
+</resources>
